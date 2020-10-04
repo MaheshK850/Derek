@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    /* border: 3px solid white;
+    border-radius: 50px; */
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+}
+.nav-list{
+    width: 80%;   
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.nav-list li{
+    list-style-type: none;
+    align-items: center;
+    padding: 20px 26px;
+    font-family: sans-serif;
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.background{
+    background: rgba(0, 0, 0,0.7)url('../hero.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
