@@ -36,7 +36,7 @@ for i in range(n):
 
    print() 
 
-B=[]
+B = []
 
 n=int(input("Enter N for N x N matrix : "))        #3 here
 
@@ -88,4 +88,4 @@ for j in
 
 for r in result: 
 
-   print("Resultant Matrix is ::>",r)
+   print("Resultant Matrix is ::>",r )
